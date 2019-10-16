@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adaptive Graphics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+
+    </div>
+
+    <!-- <img srcset="img/dog1.jpg 1x, img/dog1.jpg 2x, img/dog1.jpg 3x,"> -->
+
+    <picture>
+        <source media="(min-resolution: 1dppx)" srcset="img/dog.1">
+        <source media="(min-resolution: 1dppx)" srcset="img/dog.1">
+        <source media="(min-resolution: 1dppx)" srcset="img/dog.1">
+
+        <!-- <img src="img/dog1.jpg"> -->
+    </picture>
+</body>
+</html>

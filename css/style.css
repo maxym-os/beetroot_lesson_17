@@ -1,0 +1,23 @@
+#container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+@media screen and (min-resolution: 1dppx) {
+    #container {
+        background-image: url('../img/dog1.jpg');
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    #container {
+        background-image: url('../img/dog2.jpg');
+    }
+}
+
+@media screen and (min-resolution: 3dppx) {
+    #container {
+        background-image: url('../img/dog3.jpg');
+    }
+}
