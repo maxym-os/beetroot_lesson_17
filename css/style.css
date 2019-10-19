@@ -21,3 +21,11 @@
         background-image: url('../img/dog3.jpg');
     }
 }
+
+
+
+@supports {
+    #container {
+        display: flex;
+    }
+}
